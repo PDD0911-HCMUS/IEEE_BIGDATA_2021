@@ -1,0 +1,252 @@
+<section>
+    <div class="row">
+        <div class="col-md-4 col-12 ">
+            <div class="row search-option">
+                <section class="col-md-12 col-12 type-area">
+                    <div class="row">
+                        <h4 class="col-md-12 col-12 group-header">Search option</h4>
+                        <div class="col-md-12 col-12 option">
+                            <div class="row">
+                                <div class="col-md-3 col-12">
+                                    <label class="title-option">
+                                        Class
+                                    </label>
+                                </div>
+                                <div class="col-md-9 col-12">
+                                    <kendo-combobox [data]="listClass" [(ngModel)]="classOption">
+                                    </kendo-combobox>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-12 option">
+                            <div class="row">
+                                <div class="col-md-3 col-12">
+                                    <label class="title-option">
+                                        Object
+                                    </label>
+                                </div>
+                                <div class="col-md-9 col-12">
+                                    <kendo-combobox [data]="listObject" [(ngModel)]="objectOption">
+                                    </kendo-combobox>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-12 option">
+                            <div class="row">
+                                <div class="col-md-3 col-12">
+                                    <label class="title-option">
+                                        Attribute
+                                    </label>
+                                </div>
+                                <div class="col-md-9 col-12">
+                                    <kendo-combobox [data]="listAttribute">
+                                    </kendo-combobox>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-12 option">
+                            <div class="row">
+                                <div class="col-md-3 col-12">
+                                    <label class="title-option">
+                                        Action
+                                    </label>
+                                </div>
+                                <div class="col-md-9 col-12">
+                                    <kendo-combobox [data]="listAction">
+                                    </kendo-combobox>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-12 option">
+                            <div class="row">
+                                <div class="col-md-3 col-12">
+                                    <label class="title-option">
+                                        Position
+                                    </label>
+                                </div>
+                                <div class="col-md-9 col-12">
+                                    <kendo-combobox [data]="listPosition">
+                                    </kendo-combobox>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-12 option">
+                            <div class="row">
+                                <div class="col-md-3 col-12">
+                                    <label class="title-option">
+                                        Location
+                                    </label>
+                                </div>
+                                <div class="col-md-9 col-12">
+                                    <kendo-combobox [data]="listLocation">
+                                    </kendo-combobox>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-12 option">
+                            <div class="row">
+                                <div class="col-md-2 col-12">
+                                    <label class="title-option">
+                                        Time
+                                    </label>
+                                </div>
+                                <div class="col-md-4 col-12 ">
+                                    <kendo-timepicker class="date-input"></kendo-timepicker>
+                                </div>
+                                <div class="col-md-2 col-12 to-time">
+                                    <label class="title-option">
+                                        To
+                                    </label>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <kendo-timepicker class="date-input"></kendo-timepicker>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-12 option">
+                            <div class="row">
+                                <div class="col-md-2 col-12">
+                                    <label class="title-option">
+                                        Date
+                                    </label>
+                                </div>
+                                <div class="col-md-4 col-12 ">
+                                    <kendo-datepicker class="date-input"></kendo-datepicker>
+                                </div>
+                                <div class="col-md-2 col-12 to-time">
+                                    <label class="title-option">
+                                        To
+                                    </label>
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <kendo-datepicker class="date-input"></kendo-datepicker>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-12"></div>
+                        <div class="col-md-5 col-12 btn-addNew btn-detail">
+                            <button kendoButton (click)="onGet()">
+                                <span>Detail Class-based Search</span>
+                            </button>
+                        </div>
+                        <div class="col-md-3 col-12"></div>
+                    </div>
+
+                </section>
+                <section class="col-md-12 col-12 type-area">
+                    <div class="row">
+                        <h4 class="col-md-12 col-12 group-header">Topology</h4>
+                        <div class="col-md-6 col-12 btn-addNew-typology btn-plus">
+                            <button kendoButton>
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="col-md-6 col-12 btn-addNew-typology btn-minus">
+                            <button kendoButton>
+                                <i class="fa fa-minus" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="col-md-12 col-12">
+                            <textarea class="freestyle-area" kendoTextArea [rows]="3"></textarea>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-md-12 col-12 type-area">
+                    <div class="row">
+                        <h4 class="col-md-12 col-12 group-header">Query (freestyle)</h4>
+                        <div class="col-md-12 col-12">
+                            <textarea class="freestyle-area" kendoTextArea [rows]="2" [(ngModel)]="freeText"></textarea>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-md-12 col-12 type-area">
+                    <div class="row">
+                        <div class="col-md-6 col-12 btn-addNew">
+                            <button kendoButton (click)="onclickFree()">
+                                <span>Search</span>
+                            </button>
+                        </div>
+                        <div class="col-md-6 col-12 btn-addNew custom-btn-addNew ">
+                            <button kendoButton>
+                                <span>Refine</span>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="col-md-8 col-12 ">
+            <div class="row result-area">
+                <section class="col-md-12 col-12">
+                    <div class="row">
+                        <h4 class="col-md-12 col-12 group-header">Result (keyframe)</h4>
+                        <div class="col-md-12 col-12">
+                            <kendo-grid [data]="dataGridGridDataResult" style="height: 300px;">
+                                <kendo-grid-column>
+                                    <ng-template kendoGridCellTemplate>
+                                        <div class="row">
+                                            <div *ngFor="let item of dataGrids; let i = index"
+                                                style="margin-right: 100px; margin-bottom: 15px;"
+                                                class="col-md-2 col-sm-3 col-6 align-center-webkit">
+                                                <ng-container>
+                                                    <div class="row archive-item">
+                                                        <div class="col-md-12 col-12 align-center">
+                                                            <img class="file-type"
+                                                                [src]="apiRoot + 'static/dataset/' + item"
+                                                                alt="" [title]="item.label">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <!-- <div class="col-md-12 col-12 align-center custom-text">
+                                                            {{item.label}}</div> -->
+                                                        <!-- <div class="col-md-12 col-12 align-center custom-text">
+                                                            {{item}}</div> -->
+                                                    </div>
+                                                </ng-container>
+                                            </div>
+                                        </div>
+                                    </ng-template>
+                                </kendo-grid-column>
+                            </kendo-grid>
+                        </div>
+                    </div>
+                </section>
+                <section class="col-md-12 col-12">
+                    <div class="row">
+                        <h4 class="col-md-12 col-12 group-header">Video shot</h4>
+                        <div class="col-md-12 col-12">
+                            <!-- <video style="width: 100%; height: 40%;" controls>
+                                <source src="http://127.0.0.1:5000/static/uploads/video/60imgs.mp4"
+                                    type="video/mp4">
+                            </video> -->
+                            <kendo-grid [data]="dataGridGridDataResultVid" style="height: 350px;">
+                                <kendo-grid-column>
+                                    <ng-template kendoGridCellTemplate>
+                                        <div class="row">
+                                            <div *ngFor="let item of dataGridsVid; let i = index"
+                                                style="margin-right: 100px; margin-bottom: 15px;"
+                                                class="col-md-2 col-sm-3 col-6 align-center-webkit">
+                                                <ng-container>
+                                                    <div class="row archive-item">
+                                                        <div class="col-md-12 col-12 align-center">
+                                                            <video class="file-type" controls>
+                                                                <source [src]="apiRoot + item.video_name"
+                                                                    type="video/mp4">
+                                                            </video>
+                                                        </div>
+                                                    </div>
+                                                </ng-container>
+                                            </div>
+                                        </div>
+                                    </ng-template>
+                                </kendo-grid-column>
+                            </kendo-grid>
+                            <!-- <kendo-upload [saveUrl]="uploadSaveUrl" [removeUrl]="uploadRemoveUrl">
+                            </kendo-upload> -->
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>

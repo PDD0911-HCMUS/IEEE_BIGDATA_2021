@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/* Library download */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~font-awesome/css/font-awesome.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~sweetalert2/dist/sweetalert2.min.css";
+
+/* Source code */
+
+@import "../node_modules/video.js/dist/video-js.min.css";
+@import "../src/app/videojs/videojs.component.css";
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    /* background-color: #eff0f0; */
+}
+
+html {
+    background-color: white !important;
+}

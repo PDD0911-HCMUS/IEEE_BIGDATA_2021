@@ -1,0 +1,21 @@
+{
+    "year": "year",
+    "month": "month",
+    "day": "day",
+    "hour": "hour",
+    "minute": "minute",
+    "second": "second",
+    "today": "Today",
+    "toggle": "Toggle",
+    "date": "Date",
+    "dateView": "Date view",
+    "time": "Time",
+    "timeView": "Time view",
+    "now": "Now",
+    "accept": "Accept",
+    "set": "Set",
+    "selectTime": "Select time",
+    "cancel": "Cancel",
+    "cancelTime": "Cancel time"
+
+}

@@ -1,0 +1,22 @@
+{
+
+    "year": "năm",
+    "month": "tháng",
+    "day": "ngày",
+    "hour": "giờ",
+    "minute": "phút",
+    "second": "giây",
+
+    "today": "Hôm nay",
+    "toggle": "Chuyển đổi",
+    "date": "Ngày tháng",
+    "dateView": "Hiển thị ngày tháng",
+    "time": "Thời gian",
+    "timeView": "Hiển thị thời gian",
+    "now": "Bây giờ",
+    "accept": "Đồng ý",
+    "set": "Đặt",
+    "selectTime": "Chọn thòi gian",
+    "cancel": "Hủy",
+    "cancelTime": "Hủy thời gian"
+}
