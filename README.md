@@ -11,8 +11,8 @@ you have to extract this rar file follow by direction ***"incident_classificatio
 * **Testing**: 
   * Image: the python code will be in ```test_on_image.py```.
   * Video: the python code will be in ```test_on_video.py```.
- 
-I have pushed the best weight into the project ```EfficientNetB6_weight.hdf5``` , you can run the test with this best weight.
+https://drive.google.com/file/d/1HysnvJS_9s3Ctb9sTz83-iPp0IXQZC1r/view?usp=sharing
+I have upload the best weight follow by: https://drive.google.com/file/d/1HysnvJS_9s3Ctb9sTz83-iPp0IXQZC1r/view?usp=sharing ```EfficientNetB6_weight.hdf5``` , you can run the test with this best weight.
 
 ***Note***: ```config.py``` this file will be include all the config information about folder direction of data and parameters for training, you can customize it according to your purpose. ```model_create.py``` this file is the model creating you can modify it according to your purpose too.
 ## FRONTEND
