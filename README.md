@@ -14,6 +14,6 @@ you have to extract this rar file follow by direction ***"incident_classificatio
 
 I have upload the best weight follow by: https://drive.google.com/file/d/1HysnvJS_9s3Ctb9sTz83-iPp0IXQZC1r/view?usp=sharing ```EfficientNetB6_weight.hdf5``` , you can run the test with this best weight.
 
-***Note***: ```config.py``` this file will be include all the config information about folder direction of data and parameters for training, you can customize it according to your purpose. ```model_create.py``` this file is the model creating you can modify it according to your purpose too.
+***Note***: ```config.py``` this file will be include all the config information about folder direction of data and parameters for training, you can customize it according to your purpose. ```model_create.py``` this file is the model creating you can modify it according to your purpose too. PLEASE use ```Tensorflow version 2.7.0``` 
 ## FRONTEND
 You have extract the Node modules file ```node_modules.rar``` follow by direction ***"frontend/node_modules"*** and you can follow the ```README.md``` into ***frontend*** to start the web frontend.
